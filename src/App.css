@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  width: 99vw;
+  overflow-x: hidden;
+}
+
+.AppHeader {
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 1rem 2rem;
+  margin: 0;
+  background-color: rgb(108, 108, 233);
+  color: white;
+  box-sizing: border-box;
+}
+
+.Search {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.SearchInput {
+  width: 90%;
+  font-size: 1.4rem;
+  outline: none;
+  border: 5px solid rgb(108, 108, 233);
+  margin: 0;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.SearchBtn {
+  width: 10%;
+  font-size: 2.1rem;
+  background-color: rgb(108, 108, 233);
+  padding: 0.6rem 1rem;
+  margin: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.RecipesContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+  box-sizing: border-box;
+}
+
+.RecipeCard {
+  background-color: beige;
+  box-shadow: 0 0 1rem black, 0 0 4rem rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-weight: 300;
+
+  box-sizing: border-box;
+  width: 350px;
+  height: auto;
+}
+
+.RecipeTitle {
+  font-size: 1.5rem;
+}
+
+.RecipeImg {
+  width: 300px;
+  height: 300px;
+}
+
+.RecipeIngredients {
+  width: 80%;
+  list-style-type: square;
+  text-align: left;
+}
+
+.Warning {
+  background-color: coral;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
